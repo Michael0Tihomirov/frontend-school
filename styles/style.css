@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+    display: flex;
+    padding: 54px 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navMenu {
+    display: flex;
+}
+
+.home {
+    color: white; /* Цвет текста */
+    background: #87509c; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    transition: 300ms linear; /* Время изменения */
+    border-radius: 5px;
+}
+
+.home:hover {
+    color: white; /* Цвет текста */
+    background: #643a79; /* Цвет фона */
+}
+
+.about {
+    color: white; /* Цвет текста */
+    background: #87509c; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    transition: 300ms linear; /* Время изменения */
+    border-radius: 5px;
+}
+
+.about:hover {
+    color: white; /* Цвет текста */
+    background: #643a79; /* Цвет фона */
+}
+
+.work {
+    color: white; /* Цвет текста */
+    background: #87509c; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    transition: 300ms linear; /* Время изменения */
+    border-radius: 5px;
+}
+
+.work:hover {
+    color: white; /* Цвет текста */
+    background: #643a79; /* Цвет фона */
+}
+
+.blog {
+    color: white; /* Цвет текста */
+    background: #87509c; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    transition: 300ms linear; /* Время изменения */
+    border-radius: 5px;
+}
+
+.blog:hover {
+    color: white; /* Цвет текста */
+    background: #643a79; /* Цвет фона */
+}
+
+.contact {
+    color: white; /* Цвет текста */
+    background: #87509c; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    transition: 300ms linear; /* Время изменения */
+    border-radius: 5px;
+}
+
+.contact:hover {
+    color: white; /* Цвет текста */
+    background: #643a79; /* Цвет фона */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    min-width: 1032px;
+    margin: 0 auto;
+}
+
+.hellosection {
+    height: 100vh;
+    background-color: #87509c;
+}
+
+.helloMenu {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.helloButton {
+    color: white;
+    padding: 25px 80px;
+    background-color: #eb7d4b;
+    border-radius: 5px;
+    border: none;
+    transition: 300ms linear;
+    margin-top: 20px;
+}
+
+.helloButton:hover {
+    padding: 30px 95px;
+}
+
+.services {
+    display: flex;
+    color: white;
+    height: 100vh;
+    background-color: #17c2a4;
+
+}
+
+.infoBar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.BEAUTIFULTEAM {
+    display: flex;
+    height: 100vh;
+    color: #3c4761;
+    background-color: #e7f1f8;
+    text-align: center;
+}
+
+.line {
+
+    width: 87px;
+    height: 6px;
+    background-color: #bdd1df;
+    opacity: 0.75;
+
+}
+
+.serInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.imgelement img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.peoplenoeexid {
+    display: flex;
+}
+
+.bluename {
+    color: #30bae7;
+}
+
+.messenger {
+    justify-content: center;
+    display: flex;
+    column-gap: 10px;
+    padding: 0;
+}
+
+.messenger img {
+    height: 32px;
+    width: 32px;
+}
+
+.headersection {
+    font-size: 41px;
+    margin-top: 60px;
+}
+
+.peoplenoeexid {
+    margin-top: 70px;
+    display: flex;
+    column-gap: 150px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-self: center;
+}
+.contmess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-self: center;
+}
+
+.SKILLS {
+    background-color: white;
+
+}
+
+.schedule {
+    margin-top: 100px;
+    display: flex;
+    column-gap: 150px;
+}
+
+.al1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.OURPORTFOLIO {
+    background-color: #ffdd99;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-self: center;
+
+}
+
+.a123 {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.headOURPORTFOLIO {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.buttonNavMenu {
+    display: flex;
+    column-gap: 20px;
+}
+
+.buttonNavMenu button {
+    width: 90px;
+    height: 38px;
+    background-color: rgba(0, 0, 0, 0.07);
+    border: 0;
+    border-radius: 4px;
+    transition: 300ms linear;
+    cursor: pointer;
+}
+
+.buttonNavMenu button:hover {
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+.load {
+    background-color: #17c2a4;
+    border: 0;
+    border-radius: 7px;
+    width: 193px;
+    height: 40px;
+    transition: 300ms linear;
+    cursor: pointer;
+}
+
+.imgPC {
+    display: flex;
+}
+
+.PC {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+.PC img {
+    width: 450px;
+    height: 161px;
+}
+
+.infoMAIN {
+    background-color: #d74680;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.headPeople {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding: 20px;
+    color: white;
+}
+
+.infobaraboutpeople img {
+    width: 126px;
+    height: 126px;
+    border-radius: 100px;
+}
+
+.infobaraboutpeople {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-self: center;
+    column-gap: 80px;
+
+}
+
+.infopeople {
+    display: flex;
+    flex-direction: column;
+}
+
+.olan {
+    display: flex;
+    column-gap: 20px;
+}
+
+.popa {
+    color: #ffdd99;
+}
+
+.infobaraboutpeople {
+    column-gap: 140px;
+}
+
+.getInTouch {
+    display: flex;
+    height: 100vh;
+    background-color: #3c5499;
+    color: white;
+align-content: center;
+}
+
+.pppppp {
+    width: 414px;
+    height: 56px;
+    background-color: #273a71;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.pppppp::placeholder {
+    color: white;
+}
+
+.place {
+    display: flex;
+    column-gap: 50px;
+    margin-top: 76px;
+    flex-direction: column;
+    align-items: center;
+}
+.pppppp1{
+    width: 860px;
+    height: 200px;
+    background-color: #273a71;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+.pppppp1::placeholder {
+
+    color: white;
+}
+.flex{
+    display: flex;
+    column-gap: 29px;
+}
+.sendME{
+    width: 293px;
+    height: 70px;
+    background-color: #30bae7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.p0{
+    margin-top: 59px;
+}
+.endler{
+    height: 7vh;
+    background-color: #344b8e;
+    display: flex;
+}
+.mesAng{
+    display: flex;
+    justify-content: space-between;
+}
+.mesAng a:hover{
+    transition: 300ms linear;
+    color: #30bae7;
+}
+.dial {
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 80px;
+    border: 6px solid #262832;
+    border-radius: 100%;
+    margin: 20px;
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+.dial p {
+    margin: 0;
+    transform: rotate(45deg);
+}
+
+.dial.procent25 {
+    border-right-color: #689f38;
+}
+
+.dial.procent50 {
+    border-right-color: #689f38;
+    border-bottom-color: #689f38;
+}
+
+.dial.procent75 {
+    border-right-color: #689f38;
+    border-bottom-color: #689f38;
+    border-left-color: #689f38;
+}

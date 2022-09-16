@@ -1,0 +1,28 @@
+.dial {
+  width: 80px;
+  height: 80px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 80px;
+  border: 6px solid #262832;
+  border-radius: 100%;
+  margin: 20px;
+  display: inline-block;
+  transform: rotate(-45deg);
+  p {
+    margin: 0;
+    transform: rotate(45deg);
+  }
+  &.procent25 {
+    border-right-color: #689f38;
+  }
+  &.procent50 {
+    border-right-color: #689f38;
+    border-bottom-color: #689f38;
+  }
+  &.procent75 {
+    border-right-color: #689f38;
+    border-bottom-color: #689f38;
+    border-left-color: #689f38;
+  }
+}
